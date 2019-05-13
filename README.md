@@ -7,7 +7,6 @@ This is a loader which i made for my friend Pradyun S Gedam. :wink:
 :octocat: This work is hosted for live preview at [PG-Loader](https://pranshupranjal.github.io/PG-Loader/)
 
 ## How does the water animation work
----
 
 This whole animation is built on SVGs and TweenMax JS.
 
@@ -24,7 +23,6 @@ Water ripple effect is based on moving a wave svg from left to right on an infin
         y:666 to y:-200
 
 ## How is masking utilised
----
 
 Now there are two separate sets of SVG utilised. :collision:
 
@@ -33,8 +31,6 @@ Now there are two separate sets of SVG utilised. :collision:
 - One set is for providing the fill of letters which will be masked by the water animation.
 
 ## Color Palette
----
 
-- ![#1774BF](https://placehold.it/15/1774BF/000000?text=+) `#1774BF`
-
-- ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF`
+![#1774BF](https://via.placeholder.com/100/0000FF/FFFFFF?Text=#1774BF)
+![#FFFFFF](https://via.placeholder.com/100/FFFFFF/000000?Text=#FFFFFF)
