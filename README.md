@@ -32,5 +32,5 @@ Now there are two separate sets of SVG utilised. :collision:
 
 ## Color Palette
 
-![#1774BF](https://via.placeholder.com/100/0000FF/FFFFFF?Text=#1774BF)
-![#FFFFFF](https://via.placeholder.com/100/FFFFFF/000000?Text=#FFFFFF)
+![#1774BF](https://via.placeholder.com/100/0000FF/FFFFFF?text=1774BF)
+![#FFFFFF](https://via.placeholder.com/100/FFFFFF/000000?text=FFFFFF)
