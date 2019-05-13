@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125816936-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-125816936-1');
+    </script>
+    <!-- Google Anayltics end -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pradyun S Gedam</title>
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="ishouldnothavesaidit">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300px" height="300px" viewBox="0 0 698 956">
+            <defs>
+                <!-- Whatever is defined in defs is not rendered directly on the screen -->
+                <pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+                    <path fill="#1774BF" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+                </pattern>
+                <!-- Only for stroke area -->
+                <path id="P" class="st0" d="M126.5,10.8L12.4,10.9v934.3h114.1V610.5l262.1-262.3V273L126.5,10.8z M127.4,459.9v-298l148,149
+                L127.4,459.9z"/>
+                <polygon id="G" class="st0" points="500.4,672.9 500.4,758.9 571.4,758.9 500.4,833.9 349.7,683.9 500.1,533.5 572.9,606.4 
+                646.1,533.2 537.1,424.2 462.4,424.2 238.6,648 238.6,720.9 461,943.3 537.4,943.3 685.6,795.1 685.6,721.9 637.5,673.8 "/>
+                <!-- Actual Fill area -->
+                <path id="P_new" class="st1" d="M126.5,10.8L12.4,10.9v934.3h114.1V610.5l262.1-262.3V273L126.5,10.8z M127.4,459.9v-298l148,149
+                L127.4,459.9z"/>
+                <polygon id="G_new" class="st1" points="500.4,672.9 500.4,758.9 571.4,758.9 500.4,833.9 349.7,683.9 500.1,533.5 572.9,606.4 
+                646.1,533.2 537.1,424.2 462.4,424.2 238.6,648 238.6,720.9 461,943.3 537.4,943.3 685.6,795.1 685.6,721.9 637.5,673.8 "/>
+                <!-- This will be the text mask which will have the water effect applied to -->
+                <mask id="text-mask">
+                    <!-- x=100 shift everything to left -->
+                    <use x="100" y="0" xlink:href="#P_new" opacity="1" fill="#ffffff"/>
+                    <use x="100" y="0" xlink:href="#G_new" opacity="1" fill="#ffffff"/>
+                </mask>
+            </defs>
+            <!-- We have to utilize use tag to actually render stuff from defs tag -->
+            <!-- Render Stroke of PG -->
+            <use x="100" y="0" xlink:href="#P"/>
+            <use x="100" y="0" xlink:href="#G"/>
+            <!-- Render Fill of PG -->
+            <use x="100" y="0" xlink:href="#P_new"/>
+            <use x="100" y="0" xlink:href="#G_new"/>
+            <!-- The water fill effect is applied -->
+            <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" x="-400" y="0" width="1600" height="120"/>
+        </svg>
+    </div>
+    <div id="whatisit">A little loader I made for my friend <a href="https://pradyunsg.me"><strong>Pradyun S Gedam</strong></a>.</div>
+    <div class="social-icons">
+        <a class="fab fa-github" href="https://github.com/pradyunsg"></a>
+        <a class="fab fa-twitter" href="https://twitter.com/pradyunsg"></a>
+        <a class="fab fa-stack-overflow" href="https://stackoverflow.com/users/1931274"></a>
+        <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/pradyunsg"></a>
+        <a class="fab fa-bitbucket" href="https://bitbucket.org/pradyunsg"></a>
+        <a class="fab fa-reddit-alien" href="https://reddit.com/user/pradyunsg"></a>
+        <a class="fab fa-facebook-f" href="https://facebook.com/pradyunsg"></a>
+        <a class="fab fa-skype" href="skype:pradyunsg?userinfo"></a>
+        <a class="fab fa-telegram-plane" href="https://t.me/pradyunsg"></a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+</body>
+</html>

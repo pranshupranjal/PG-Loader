@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color:#1774BF;
+}
+.loading {
+  margin-top: 20px;
+}
+#ishouldnothavesaidit{
+    margin-top: 20vh;
+}
+#whatisit{
+  font-size: 1.5rem;
+}
+a{
+  color:#1774BF;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+/* Social Icons */
+.social-icons{
+  margin-top: 7vh;
+  font-size: 2rem;
+}
+.social-icons a{
+  padding-right: 0.5vw;
+  text-decoration: none;
+  color: inherit;
+}
+.social-icons a:hover{
+  color: black;
+}
+/* CSS for SVG */
+.st0{
+  fill:none;
+  stroke:#1774BF;
+  stroke-width:15;
+  stroke-miterlimit:20;
+  transform: scale(0.7);
+}
+.st1{
+  fill: #ffffff;
+  transform: scale(0.7);
+}
